@@ -63,4 +63,5 @@ Sort your files into categorized directories like `Images` `Documents` `Videos` 
         - archive.zip
 ```
 
-> [!NOTE] > **⚡ Give it a try and declutter your folders in seconds!**
+> [!NOTE]
+>**⚡ Give it a try and declutter your folders in seconds!**
