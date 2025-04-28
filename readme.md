@@ -1,27 +1,66 @@
-# File Organizer By Ronish
+# 📂 File Organizer by Ronish
 
-This is a Node.js script that organizes files in a directory based on their extensions. The script categorizes files into predefined folders such as `json`, `txt`, `csv`, `music`, `movies`, and `others` based on file type.
+A simple and efficient Node.js tool that automatically organizes cluttered folders.  
+Sort your files into categorized directories like `Images` `Documents` `Videos` and more — all with a single command.
 
-## Features
+<br/>
 
-- Automatically organizes files into categorized folders based on their extensions.
-- Supports custom extensions for different categories.
-- Creates folders dynamically if they don't exist.
-- Moves files to the appropriate folder after organization.
-- Add Own Extension and Folders.
+## ✨ Features
 
-## Setup
+- 📁 **Automatic file sorting** by category (Images, Documents, Videos, etc.)
+- ⚙️ **Customizable file types** — easily define your own extensions and categories
 
-### 1. Download NodeJs
+<br/>
 
-### 2. Clone the repository:
+## 📦 Requirements
 
-`git clone https://github.com/maharjanronish/file-organizer`
+- [Node.js](https://nodejs.org/) v14 or higher
 
-### 3. Copy the main.js to the folder you want to organize
+<br/>
 
-### 4. Open terminal in that folder
+## 🚀 Getting Started
 
-### 5. Run the given command::
+1. **Clone the repository:**
 
-`node main.js`
+   ```bash
+   git clone https://github.com/maharjanronish/file-organizer.git
+
+   ```
+
+2. **Set your target folder path inside `main.js`**
+3. **Type following command**
+   ```bash
+   node main.js
+   ```
+   <br/>
+
+## File Structure
+
+### Before
+
+```bash
+/Downloads
+    - photo.jpg
+    - resume.csv
+    - song.mp3
+    - movie.mp4
+    - archive.zip
+```
+
+---
+
+### After
+
+```bash
+/Downloads
+    /Images
+        - photo.jpg
+    /Video
+        - movie.mp4
+    /files
+        - resume.csv
+    /others
+        - archive.zip
+```
+
+> [!NOTE] > **⚡ Give it a try and declutter your folders in seconds!**

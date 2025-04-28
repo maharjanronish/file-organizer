@@ -38,6 +38,8 @@ const getAll = async (folderPath) => {
     { text: ["json", "txt", "csv"] },
     { music: ["mp3", "avi"] },
     { movies: ["mp4"] },
+    { picture: ["jpg", "png", "jpeg", "gif"] },
+    { documents: ["pdf", "docx", "docs", "xl", "csv"] },
   ];
 
   // To loop through each folder and file
@@ -77,7 +79,7 @@ const getAll = async (folderPath) => {
 
 // Main function
 const main = async () => {
-  const __currentDirectory = __dirname; // In CommonJS, __dirname gives the current directory of the script
+  const __currentDirectory = `your full path fo the directory`;
   const data = await getAll(__currentDirectory);
   await createDirectory(__currentDirectory, data);
 };
